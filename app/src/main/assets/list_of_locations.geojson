@@ -1,0 +1,1344 @@
+﻿{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.155931,49.303152 ]
+    },
+    "properties": {
+    "name":"Stanley Park",
+    "address":"2000 W Georgia Street",
+    "hours":"Dawn to Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.128638,49.23851 ]
+    },
+    "properties": {
+    "name":"VanDusen Botanical Garden",
+    "address":"5251 Oak Street",
+    "hours":"Hours of operation only",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.13256,49.287214 ]
+    },
+    "properties": {
+    "name":"Barclay Heritage Square",
+    "address":"1433 Barclay Street",
+    "hours":"Hours of the centre",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.13795,49.278837 ]
+    },
+    "properties": {
+    "name":"Sunset Beach Park",
+    "address":"1204 Beach Avenue",
+    "hours":"7:00 am - Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.14658,49.292293 ]
+    },
+    "properties": {
+    "name":"Stanley Park",
+    "address":"2000 W Georgia Street",
+    "hours":"Dawn to Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.188455,49.243334 ]
+    },
+    "properties": {
+    "name":"Memorial West Park",
+    "address":"4701 Dunbar Street",
+    "hours":"Dawn to Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.131432,49.297753 ]
+    },
+    "properties": {
+    "name":"Stanley Park",
+    "address":"2000 W Georgia Street",
+    "hours":"Dawn to Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.084388,49.230738 ]
+    },
+    "properties": {
+    "name":"Memorial South Park",
+    "address":"5955 Ross Street",
+    "hours":"Dawn to Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.036017,49.266922 ]
+    },
+    "properties": {
+    "name":"Sunrise Park",
+    "address":"1950 Windermere Street",
+    "hours":"Dawn to Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.049782,49.271145 ]
+    },
+    "properties": {
+    "name":"Clinton Park",
+    "address":"2690 Grant Street",
+    "hours":"Dawn to Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.036308,49.289293 ]
+    },
+    "properties": {
+    "name":"New Brighton Park",
+    "address":"3201 New Brighton Road",
+    "hours":"Dawn to Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.191124,49.249426 ]
+    },
+    "properties": {
+    "name":"Chaldecott Park",
+    "address":"4175 Wallace Street",
+    "hours":"Dawn to Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.148388,49.31055 ]
+    },
+    "properties": {
+    "name":"Stanley Park",
+    "address":"2000 W Georgia Street",
+    "hours":"Dawn to Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.148723,49.244643 ]
+    },
+    "properties": {
+    "name":"Quilchena Park",
+    "address":"4590 Magnolia Street",
+    "hours":"Dawn to Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.124114,49.276054 ]
+    },
+    "properties": {
+    "name":"Richards at Davie - Emery Barnes Park",
+    "address":"",
+    "hours":"24 hrs",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.036715,49.236529 ]
+    },
+    "properties": {
+    "name":"Collingwood Park",
+    "address":"5275 McKinnon Street",
+    "hours":"Dawn to Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.129557,49.238659 ]
+    },
+    "properties": {
+    "name":"VanDusen Botanical Garden",
+    "address":"5251 Oak Street",
+    "hours":"Hours of operation only",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.112908,49.231522 ]
+    },
+    "properties": {
+    "name":"Columbia Park",
+    "address":"5908 Alberta Street",
+    "hours":"Dawn to Dusk Weekends only",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.049933,49.255232 ]
+    },
+    "properties": {
+    "name":"Beaconsfield Park",
+    "address":"3215 Slocan Street",
+    "hours":"Dawn to Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.110132,49.28259 ]
+    },
+    "properties": {
+    "name":"Victory Square",
+    "address":"",
+    "hours":"Men: 6am - Women: 8am to Midnight",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.148714,49.293616 ]
+    },
+    "properties": {
+    "name":"Stanley Park",
+    "address":"2000 W Georgia Street",
+    "hours":"Dawn to Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.204579,49.266541 ]
+    },
+    "properties": {
+    "name":"West Point Grey Park",
+    "address":"2250 Trimble Street",
+    "hours":"Dawn to Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.120082,49.281632 ]
+    },
+    "properties": {
+    "name":"Robson at Granville",
+    "address":"",
+    "hours":"24 hrs",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.134051,49.299549 ]
+    },
+    "properties": {
+    "name":"Stanley Park",
+    "address":"2000 W Georgia Street",
+    "hours":"Dawn to Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.024071,49.27588 ]
+    },
+    "properties": {
+    "name":"Adanac Park",
+    "address":"1025 Boundary Road",
+    "hours":"Dawn to Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.051424,49.237974 ]
+    },
+    "properties": {
+    "name":"Norquay Park",
+    "address":"5050 Wales Street",
+    "hours":"Dawn to Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.163471,49.251554 ]
+    },
+    "properties": {
+    "name":"Trafalgar Park",
+    "address":"2610 W 23rd Avenue",
+    "hours":"Dawn to Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.18014,49.268106 ]
+    },
+    "properties": {
+    "name":"McBride Park",
+    "address":"3350 W 4th Avenue",
+    "hours":"Dawn to Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.111577,49.238938 ]
+    },
+    "properties": {
+    "name":"Queen Elizabeth Park",
+    "address":"4600 Cambie Street",
+    "hours":"Dawn to Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.037873,49.280647 ]
+    },
+    "properties": {
+    "name":"Hastings Community Park",
+    "address":"3000 E Pender Street",
+    "hours":"Closed",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.104602,49.281638 ]
+    },
+    "properties": {
+    "name":"Hastings at Carral - Pigeon Park",
+    "address":"",
+    "hours":"24 hrs",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.051846,49.205768 ]
+    },
+    "properties": {
+    "name":"Riverfront Park",
+    "address":"2750 E Kent Street S",
+    "hours":"Dawn to Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.142804,49.286154 ]
+    },
+    "properties": {
+    "name":"English Bay Beach Park",
+    "address":"1700 Beach Avenue",
+    "hours":"10:00 am - Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.172609,49.256742 ]
+    },
+    "properties": {
+    "name":"Carnarvon Park",
+    "address":"2995 W 19th Avenue",
+    "hours":"Dawn to Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.092911,49.2748 ]
+    },
+    "properties": {
+    "name":"Trillium Park",
+    "address":"600 National Avenue",
+    "hours":"Dawn to 10:15 pm",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.130707,49.302925 ]
+    },
+    "properties": {
+    "name":"Stanley Park",
+    "address":"2000 W Georgia Street",
+    "hours":"Dawn to Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.030604,49.270135 ]
+    },
+    "properties": {
+    "name":"Rupert Park",
+    "address":"1600 Rupert Street",
+    "hours":"Dawn to Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.123516,49.279696 ]
+    },
+    "properties": {
+    "name":"Nelson at Howe",
+    "address":"",
+    "hours":"24 hrs",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.146599,49.293035 ]
+    },
+    "properties": {
+    "name":"Stanley Park",
+    "address":"2000 W Georgia Street",
+    "hours":"Dawn to Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.069499,49.22387 ]
+    },
+    "properties": {
+    "name":"Gordon Park",
+    "address":"6675 Commercial Street",
+    "hours":"Dawn to Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.099849,49.283276 ]
+    },
+    "properties": {
+    "name":"Powell at Main",
+    "address":"",
+    "hours":"24 hrs",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.157542,49.273014 ]
+    },
+    "properties": {
+    "name":"Kitsilano Beach Park",
+    "address":"1499 Arbutus Street",
+    "hours":"Dawn to Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.142649,49.312412 ]
+    },
+    "properties": {
+    "name":"Stanley Park",
+    "address":"2000 W Georgia Street",
+    "hours":"Dawn to Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.130677,49.283378 ]
+    },
+    "properties": {
+    "name":"Nelson Park",
+    "address":"",
+    "hours":"24 hrs",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.049648,49.290363 ]
+    },
+    "properties": {
+    "name":"Burrard View Park",
+    "address":"650 North Penticton Street",
+    "hours":"Dawn to Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.086188,49.274557 ]
+    },
+    "properties": {
+    "name":"Strathcona Park",
+    "address":"857 Malkin Avenue",
+    "hours":"Dawn to Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.112919,49.242183 ]
+    },
+    "properties": {
+    "name":"Queen Elizabeth Park",
+    "address":"4600 Cambie Street",
+    "hours":"7:30 am - 9:00 pm",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.133141,49.281854 ]
+    },
+    "properties": {
+    "name":"Bute at Davie",
+    "address":"",
+    "hours":"24 hrs",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.153702,49.274471 ]
+    },
+    "properties": {
+    "name":"Kitsilano Beach Park",
+    "address":"1499 Arbutus Street",
+    "hours":"Dawn to Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.21492,49.276243 ]
+    },
+    "properties": {
+    "name":"Spanish Banks Beach Park",
+    "address":"4801 NW Marine Drive",
+    "hours":"Dawn to Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.12924,49.231826 ]
+    },
+    "properties": {
+    "name":"Montgomery Park",
+    "address":"1040 W 43rd Avenue",
+    "hours":"Dawn to Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.057478,49.282279 ]
+    },
+    "properties": {
+    "name":"Pandora Park",
+    "address":"2325 Franklin Street",
+    "hours":"Closed",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.068328,49.236204 ]
+    },
+    "properties": {
+    "name":"Jones Park",
+    "address":"5350 Commercial Street",
+    "hours":"Dawn to Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.163283,49.233431 ]
+    },
+    "properties": {
+    "name":"Elm Park",
+    "address":"5800 Elm Street",
+    "hours":"Dawn to Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.150733,49.295626 ]
+    },
+    "properties": {
+    "name":"Stanley Park",
+    "address":"2000 W Georgia Street",
+    "hours":"Dawn to Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.121466,49.289804 ]
+    },
+    "properties": {
+    "name":"Harbour Green Park",
+    "address":"1199 W Cordova Street",
+    "hours":"Dawn to Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.087354,49.215252 ]
+    },
+    "properties": {
+    "name":"Moberly Park",
+    "address":"7646 Prince Albert Street",
+    "hours":"Dawn to Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.202805,49.274427 ]
+    },
+    "properties": {
+    "name":"Jericho Beach Park",
+    "address":"3941 Point Grey Road",
+    "hours":"Dawn - 11:00 pm",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.126023,49.299625 ]
+    },
+    "properties": {
+    "name":"Stanley Park",
+    "address":"2000 W Georgia Street",
+    "hours":"Dawn to Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.030682,49.27305 ]
+    },
+    "properties": {
+    "name":"Rupert Park",
+    "address":"1600 Rupert Street",
+    "hours":"Dawn to Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.061387,49.253926 ]
+    },
+    "properties": {
+    "name":"John Hendry (Trout Lake) Park",
+    "address":"3300 Victoria Drive",
+    "hours":"Dawn to Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.10762,49.264498 ]
+    },
+    "properties": {
+    "name":"Jonathan Rogers Park",
+    "address":"110 W 7th Avenue",
+    "hours":"Dawn to Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.029405,49.255123 ]
+    },
+    "properties": {
+    "name":"Falaise Park",
+    "address":"3434 Falaise Avenue",
+    "hours":"Dawn to Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.191658,49.27158 ]
+    },
+    "properties": {
+    "name":"Jericho Beach Park",
+    "address":"3941 Point Grey Road",
+    "hours":"Dawn to Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.159582,49.223384 ]
+    },
+    "properties": {
+    "name":"Maple Grove Park",
+    "address":"6875 Yew Street",
+    "hours":"Dawn to Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.09985,49.281107 ]
+    },
+    "properties": {
+    "name":"Main at Hastings",
+    "address":"",
+    "hours":"Men: 6am - Women: 8am to Midnight",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.149856,49.207394 ]
+    },
+    "properties": {
+    "name":"Fraser River Park",
+    "address":"8705 Angus Drive",
+    "hours":"Closed",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.141969,49.258493 ]
+    },
+    "properties": {
+    "name":"Granville Park",
+    "address":"3001 Fir Street",
+    "hours":"Dawn to Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.099778,49.273138 ]
+    },
+    "properties": {
+    "name":"Main at Terminal",
+    "address":"",
+    "hours":"8am to 3pm to N/A",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.067413,49.271744 ]
+    },
+    "properties": {
+    "name":"Victoria Park",
+    "address":"1425 Victoria Drive",
+    "hours":"Dawn to Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.101835,49.284592 ]
+    },
+    "properties": {
+    "name":"CRAB Park at Portside",
+    "address":"101 E Waterfront Road",
+    "hours":"Dawn to Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.12764,49.216285 ]
+    },
+    "properties": {
+    "name":"Oak Park",
+    "address":"900 W 59th Avenue",
+    "hours":"Dawn to Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.138591,49.293922 ]
+    },
+    "properties": {
+    "name":"Stanley Park",
+    "address":"2000 W Georgia Street",
+    "hours":"Dawn to Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.132923,49.302069 ]
+    },
+    "properties": {
+    "name":"Stanley Park",
+    "address":"2000 W Georgia Street",
+    "hours":"Dawn to Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.125415,49.272383 ]
+    },
+    "properties": {
+    "name":"David Lam Park",
+    "address":"1300 Pacific Boulevard",
+    "hours":"10:00 am - Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.092848,49.258627 ]
+    },
+    "properties": {
+    "name":"Robson Park",
+    "address":"599 Kingsway",
+    "hours":"Dawn to Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.047952,49.244437 ]
+    },
+    "properties": {
+    "name":"Slocan Park",
+    "address":"2750 E 29th Avenue",
+    "hours":"Dawn to Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.124483,49.24742 ]
+    },
+    "properties": {
+    "name":"Braemar Park",
+    "address":"895 W 27th Avenue",
+    "hours":"Dawn to Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.082798,49.216699 ]
+    },
+    "properties": {
+    "name":"Ross Park",
+    "address":"7402 Ross Street",
+    "hours":"Dawn to Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.094181,49.282937 ]
+    },
+    "properties": {
+    "name":"Oppenheimer Park",
+    "address":"400 Powell Street",
+    "hours":"Tue - Sat 9:00 am - 5:00 pm",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.089366,49.279007 ]
+    },
+    "properties": {
+    "name":"MacLean Park",
+    "address":"710 Keefer Street",
+    "hours":"Dawn to Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.112844,49.242211 ]
+    },
+    "properties": {
+    "name":"Queen Elizabeth Park",
+    "address":"4600 Cambie Street",
+    "hours":"7:30 am - 9:00 pm",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.103599,49.27782 ]
+    },
+    "properties": {
+    "name":"Andy Livingstone Park",
+    "address":"89 Expo Boulevard",
+    "hours":"10:00 am - 11:00 pm",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.169511,49.269476 ]
+    },
+    "properties": {
+    "name":"Tatlow Park",
+    "address":"2845 W 3rd Avenue",
+    "hours":"Dawn to Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.065425,49.247854 ]
+    },
+    "properties": {
+    "name":"Brewers Park",
+    "address":"4175 Victoria Drive",
+    "hours":"Closed",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.112948,49.215717 ]
+    },
+    "properties": {
+    "name":"Winona Park",
+    "address":"7575 Columbia Street",
+    "hours":"Dawn to Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.07322,49.278368 ]
+    },
+    "properties": {
+    "name":"Woodland Park",
+    "address":"705 Woodland Drive",
+    "hours":"Dawn to Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.056414,49.215606 ]
+    },
+    "properties": {
+    "name":"Bobolink Park",
+    "address":"2510 Hoylake Avenue",
+    "hours":"Dawn to Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.145354,49.290866 ]
+    },
+    "properties": {
+    "name":"Stanley Park",
+    "address":"2000 W Georgia Street",
+    "hours":"Weekdays only 8:30 am - 5:00 pm",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.17546,49.245233 ]
+    },
+    "properties": {
+    "name":"Balaclava Park",
+    "address":"4594 Balaclava Street",
+    "hours":"Dawn to Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.121278,49.29944 ]
+    },
+    "properties": {
+    "name":"Stanley Park",
+    "address":"2000 W Georgia Street",
+    "hours":"Dawn to Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.206555,49.275065 ]
+    },
+    "properties": {
+    "name":"Locarno Park",
+    "address":"4445 NW Marine Drive",
+    "hours":"Dawn to Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.058333,49.268285 ]
+    },
+    "properties": {
+    "name":"Garden Park",
+    "address":"1851 Garden Drive",
+    "hours":"Dawn to Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.069954,49.273761 ]
+    },
+    "properties": {
+    "name":"Grandview Park",
+    "address":"1657 Charles Street",
+    "hours":"Dawn to Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.042299,49.211295 ]
+    },
+    "properties": {
+    "name":"Fraserview Golf Course",
+    "address":"7800 Vivian Drive",
+    "hours":"Dawn to Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.139855,49.275196 ]
+    },
+    "properties": {
+    "name":"Vanier Park",
+    "address":"1000 Chestnut Street",
+    "hours":"Dawn to Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.1307,49.299867 ]
+    },
+    "properties": {
+    "name":"Stanley Park",
+    "address":"2000 W Georgia Street",
+    "hours":"Dawn to Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.222679,49.277471 ]
+    },
+    "properties": {
+    "name":"Spanish Banks Beach Park",
+    "address":"4801 NW Marine Drive",
+    "hours":"Dawn to Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.118054,49.280324 ]
+    },
+    "properties": {
+    "name":"Robson at Richards",
+    "address":"",
+    "hours":"24 hrs",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.150309,49.27746 ]
+    },
+    "properties": {
+    "name":"Hadden Park",
+    "address":"1905 Ogden Avenue",
+    "hours":"Dawn to Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.084887,49.240787 ]
+    },
+    "properties": {
+    "name":"Grays Park",
+    "address":"4850 St. Catherines Street",
+    "hours":"Closed",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.036025,49.289333 ]
+    },
+    "properties": {
+    "name":"New Brighton Park",
+    "address":"3201 New Brighton Road",
+    "hours":"Dawn to Dusk",
+    "description":"Parks operated public washroom"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -123.057429,49.228241 ]
+    },
+    "properties": {
+    "name":"Nanaimo Park",
+    "address":"2390 E 46th Avenue",
+    "hours":"Dawn to Dusk",
+    "description":"Parks operated public washroom"
+    }
+  }
+]
+}
