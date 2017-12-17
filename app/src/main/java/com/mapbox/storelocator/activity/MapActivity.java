@@ -7,11 +7,13 @@ import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearSnapHelper;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.SnapHelper;
 import android.util.Log;
+import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.ImageView;
@@ -28,7 +30,6 @@ import com.mapbox.mapboxsdk.camera.CameraPosition;
 import com.mapbox.mapboxsdk.camera.CameraUpdateFactory;
 import com.mapbox.mapboxsdk.constants.Style;
 import com.mapbox.mapboxsdk.geometry.LatLng;
-import com.mapbox.mapboxsdk.geometry.LatLngBounds;
 import com.mapbox.mapboxsdk.maps.MapView;
 import com.mapbox.mapboxsdk.maps.MapboxMap;
 import com.mapbox.mapboxsdk.maps.OnMapReadyCallback;
@@ -70,7 +71,6 @@ import com.mapbox.services.android.telemetry.permissions.PermissionsListener;
 import com.mapbox.services.android.telemetry.permissions.PermissionsManager;
 
 import static com.mapbox.services.Constants.PRECISION_6;
-import static com.mapbox.storelocator.util.StringConstants.SELECTED_THEME;
 
 /**
  * Activity with a Mapbox map and recyclerview to view various locations
@@ -138,6 +138,7 @@ public class MapActivity extends AppCompatActivity implements LocationRecyclerVi
 
         // Setting the returned mapboxMap object (directly above) equal to the "globally declared" one
         MapActivity.this.mapboxMap = mapboxMap;
+        enableLocationPlugin();
 
         // Initialize the custom class that handles marker icon creation and map styling based on the selected theme
         customThemeManager = new CustomThemeManager(chosenTheme, MapActivity.this, mapView, mapboxMap);
@@ -185,12 +186,16 @@ public class MapActivity extends AppCompatActivity implements LocationRecyclerVi
 
         }
 
-        enableLocationPlugin();
-        myLocation = mapboxMap.getMyLocation();
-
         setUpMarkerClickListener();
 
         setUpRecyclerViewOfLocationCards(chosenTheme);
+      }
+    });
+    // Setup FAB
+    FloatingActionButton zoom_to_location = (FloatingActionButton) mapView.findViewById(R.id.floatingActionButton4);
+    zoom_to_location.setOnClickListener(new View.OnClickListener() {
+      public void onClick(View v) {
+        setCameraPosition(myLocation);
       }
     });
   }
@@ -221,6 +226,7 @@ public class MapActivity extends AppCompatActivity implements LocationRecyclerVi
           myLocation = lastLocation;
       } else {
           locationEngine.addLocationEngineListener(this);
+          myLocation = locationEngine.getLastLocation(); // Still Null???
       }
   }
 
@@ -269,6 +275,21 @@ public class MapActivity extends AppCompatActivity implements LocationRecyclerVi
                       .setProfile(DirectionsCriteria.PROFILE_WALKING)
                       .setAccessToken(getString(R.string.access_token))
                       .build();
+          }
+          else {
+            myLocation = locationEngine.getLastLocation();
+
+            Position myPosition = Position.fromLngLat(myLocation.getLongitude(), myLocation.getLatitude());
+            Position destinationMarker = Position.fromLngLat(destinationLongCoordinate, destinationLatCoordinate);
+
+            // Initialize the directionsApiClient object for eventually drawing a navigation route on the map
+            directionsApiClient = new MapboxDirections.Builder()
+                    .setOrigin(myPosition)
+                    .setDestination(destinationMarker)
+                    .setOverview(DirectionsCriteria.OVERVIEW_FULL)
+                    .setProfile(DirectionsCriteria.PROFILE_WALKING)
+                    .setAccessToken(getString(R.string.access_token))
+                    .build();
           }
       }
       catch (SecurityException e) {
@@ -572,47 +593,13 @@ public class MapActivity extends AppCompatActivity implements LocationRecyclerVi
     }
 
     private void initializeTheme() {
-      switch (selectedTheme) {
-        case R.style.AppTheme_Blue:
-          mapboxMap.setStyle(getString(R.string.custom));
-          navigationLineColor = getResources().getColor(R.color.navigationRouteLine_blue);
-          unselectedMarkerIcon = IconFactory.getInstance(context).fromResource(R.drawable.yellowunselected);
-          selectedMarkerIcon = IconFactory.getInstance(context).fromResource(R.drawable.yellowselected);
-          mockLocationIcon = IconFactory.getInstance(context).fromResource(R.drawable.blue_user_location);
-          showBuildingExtrusions();
-          break;
-        case R.style.AppTheme_Purple:
-          mapboxMap.setStyle(getString(R.string.purple_map_style));
-          navigationLineColor = getResources().getColor(R.color.navigationRouteLine_purple);
-          unselectedMarkerIcon = IconFactory.getInstance(context).fromResource(R.drawable.purple_unselected_burger);
-          selectedMarkerIcon = IconFactory.getInstance(context).fromResource(R.drawable.purple_selected_burger);
-          mockLocationIcon = IconFactory.getInstance(context).fromResource(R.drawable.purple_user_location);
-          break;
-        case R.style.AppTheme_Green:
-          mapboxMap.setStyle(getString(R.string.terminal_map_style));
-          navigationLineColor = getResources().getColor(R.color.navigationRouteLine_green);
-          unselectedMarkerIcon = IconFactory.getInstance(context).fromResource(R.drawable.green_unselected_money);
-          selectedMarkerIcon = IconFactory.getInstance(context).fromResource(R.drawable.green_selected_money);
-          mockLocationIcon = IconFactory.getInstance(context).fromResource(R.drawable.green_user_location);
-          break;
-        case R.style.AppTheme_Neutral:
-          mapboxMap.setStyle(Style.MAPBOX_STREETS);
-          //mapboxMap.setStyle(getString(R.string.custom));
-          navigationLineColor = getResources().getColor(R.color.navigationRouteLine_neutral);
-          unselectedMarkerIcon = IconFactory.getInstance(context).fromResource(R.drawable.yellowunselected);
-          selectedMarkerIcon = IconFactory.getInstance(context).fromResource(R.drawable.yellowselected);
-          mockLocationIcon = IconFactory.getInstance(context).fromResource(R.drawable.neutral_orange_user_location);
-          showBuildingExtrusions();
-          break;
-        case R.style.AppTheme_Gray:
-          //mapboxMap.setStyle(Style.LIGHT);
-          mapboxMap.setStyle(getString(R.string.custom));
-          navigationLineColor = getResources().getColor(R.color.navigationRouteLine_gray);
-          unselectedMarkerIcon = IconFactory.getInstance(context).fromResource(R.drawable.white_unselected_bike);
-          selectedMarkerIcon = IconFactory.getInstance(context).fromResource(R.drawable.gray_selected_bike);
-          mockLocationIcon = IconFactory.getInstance(context).fromResource(R.drawable.gray_user_location);
-          break;
-      }
+      mapboxMap.setStyle(Style.MAPBOX_STREETS);
+      //mapboxMap.setStyle(getString(R.string.custom));
+      navigationLineColor = getResources().getColor(R.color.navigationRouteLine_neutral);
+      unselectedMarkerIcon = IconFactory.getInstance(context).fromResource(R.drawable.yellowunselected);
+      selectedMarkerIcon = IconFactory.getInstance(context).fromResource(R.drawable.yellowselected);
+      mockLocationIcon = IconFactory.getInstance(context).fromResource(R.drawable.neutral_orange_user_location);
+      showBuildingExtrusions();
     }
 
     private void showBuildingExtrusions() {

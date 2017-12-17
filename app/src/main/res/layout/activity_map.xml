@@ -30,6 +30,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="top|right"
+            android:layout_margin="16dp"
             android:clickable="true"
             mapbox:backgroundTint="@color/mapbox_plugin_location_layer_blue"
             mapbox:fabSize="normal"
