@@ -412,22 +412,18 @@ public class MapActivity extends AppCompatActivity implements LocationRecyclerVi
       }
     }
 
-    // Change the selected marker's icon to a selected state marker except if the mock device location marker is selected
-    if (!marker.getIcon().equals(customThemeManager.getMockLocationIcon())) {
-      marker.setIcon(customThemeManager.getSelectedMarkerIcon());
-    }
+    marker.setIcon(customThemeManager.getSelectedMarkerIcon());
+
 
     // Get the directionsApiClient route to the selected marker except if the mock device location marker is selected
-    if (!marker.getIcon().equals(customThemeManager.getMockLocationIcon())) {
-      // Check for an internet connection before making the call to Mapbox Directions API
-      if (deviceHasInternetConnection()) {
-        // Start the call to the Mapbox Directions API
-        getInformationFromDirectionsApi(marker.getPosition().getLatitude(),
+
+    if (deviceHasInternetConnection()) {
+      // Start the call to the Mapbox Directions API
+      getInformationFromDirectionsApi(marker.getPosition().getLatitude(),
           marker.getPosition().getLongitude(), true, null);
       } else {
         Toast.makeText(this, R.string.no_internet_message, Toast.LENGTH_LONG).show();
       }
-    }
   }
 
   private void drawNavigationPolylineRoute(DirectionsRoute route) {
@@ -579,7 +575,6 @@ public class MapActivity extends AppCompatActivity implements LocationRecyclerVi
     private Context context;
     private Icon unselectedMarkerIcon;
     private Icon selectedMarkerIcon;
-    private Icon mockLocationIcon;
     private int navigationLineColor;
     private MapboxMap mapboxMap;
     private MapView mapView;
@@ -598,7 +593,6 @@ public class MapActivity extends AppCompatActivity implements LocationRecyclerVi
       navigationLineColor = getResources().getColor(R.color.navigationRouteLine_neutral);
       unselectedMarkerIcon = IconFactory.getInstance(context).fromResource(R.drawable.yellowunselected);
       selectedMarkerIcon = IconFactory.getInstance(context).fromResource(R.drawable.yellowselected);
-      mockLocationIcon = IconFactory.getInstance(context).fromResource(R.drawable.neutral_orange_user_location);
       showBuildingExtrusions();
     }
 
@@ -616,10 +610,6 @@ public class MapActivity extends AppCompatActivity implements LocationRecyclerVi
 
     Icon getSelectedMarkerIcon() {
       return selectedMarkerIcon;
-    }
-
-    Icon getMockLocationIcon() {
-      return mockLocationIcon;
     }
 
     int getNavigationLineColor() {
